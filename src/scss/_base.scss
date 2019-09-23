@@ -1,0 +1,166 @@
+/* This stylesheet is for any custom classes you create in your child theme. See below for examples */
+body{
+    background-image: url(images/background-parallax.png);
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+}
+
+/**
+****
+*****
+****** BACKGROUND COLOURS ******
+*****
+****
+***
+*/
+.primaryBg {
+    background: $primary;
+}
+
+.secondaryBg {
+    background: $secondary;
+}
+
+.tertiaryBg {
+    background: $tertiary;
+}
+
+.lightGreyBg {
+    background: $lightGrey;
+}
+
+.darkGreyBg {
+    background: $darkGrey;
+}
+/**
+****
+*****
+****** END BACKGROUND COLORS ******
+*****
+****
+***
+*/
+
+
+/**
+****
+*****
+****** BOX SHADOWS ******
+*****
+****
+***
+*/
+.box-shadow-bottom {
+    box-shadow: 0 8px 6px -6px #999;
+}
+
+.box-shadow-top {
+    box-shadow: 0 -8px 6px -6px #999;
+}
+
+.box-shadow-top-bottom {
+    box-shadow: 0 8px 6px -6px #999, 0 -8px 6px -6px #999;
+}
+
+.box-shadow-full {
+    box-shadow: 0 0 8px 0 #999;
+}
+/**
+****
+*****
+****** END BOX SHADOWS ******
+*****
+****
+***
+*/
+
+
+
+
+
+.row{
+	padding: 5rem 0;
+
+	 .col{
+	 	*:last-child{
+	 		margin-bottom: 0px;
+	 	}
+	 }
+}
+
+
+
+
+.paperBG{
+    background: url(images/components/paper-bg-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 45px;
+    background-position: center;
+    height: 520px;
+}
+.paperBG2{
+	background: url(images/components/paper-bg-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 45px;
+    background-position: center;
+    height: 520px;
+}
+.paperBG3{
+	background: url(images/components/paper-bg-3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 45px;
+    background-position: center;
+    height: 520px;
+}
+.paperBG4{
+	background: url(images/components/paper-bg-4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 45px;
+    background-position: center;
+    height: 520px;
+}
+.paperBG5{
+	background: url(images/components/paper-bg-5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 45px;
+    background-position: center;
+    height: 520px;
+}
+
+
+.primary-gradient-bg{
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1fb3e8+0,0d76bd+100 */
+	background: $primary; /* Old browsers */
+	background: -moz-linear-gradient(top, $primary 0%, $tertiary 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, $primary 0%,$tertiary 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, $primary 0%,$tertiary 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=$primary, endColorstr=$tertiary,GradientType=0 ); /* IE6-9 */
+}
+
+.call-to-action-row{
+    padding:50px 0;
+    p,h1,h2,h3,h4,h5,h6,div{
+        color: #ffffff;
+    }
+}
+
+
+/*
+.elementor-section-boxed {
+    padding: 50px 0;
+}
+*/
+
+
+
+
+.elementor-widget-testimonial-carousel .elementor-testimonial__image img {
+    width: auto;
+    height: auto;
+}

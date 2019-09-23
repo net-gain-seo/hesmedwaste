@@ -1,0 +1,15 @@
+/* This stylesheet should contain only styles for the header elements including the navigation menus */
+
+
+.elementor-nav-menu{
+	margin-bottom:0 !important;
+	li{
+		&:hover{
+			background: #DCDDDE;
+		}
+	}
+}
+
+.e--pointer-double-line .elementor-item:after, .e--pointer-underline .elementor-item:after{
+	display: none;
+}

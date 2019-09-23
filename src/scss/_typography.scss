@@ -1,0 +1,148 @@
+/* This stylesheet is for the custom typography styles for the child theme */
+
+body,html{
+    font-size: 10px;
+    font-family: lato;
+}
+
+* {
+    /* Set the font size for all elements. Change based on your design files style guide */
+
+}
+
+/* Set the heading font family. Change the $headingFont variable in the main.scss file */
+
+/* Set the heading font sizes. Change based on the design file's style guide */
+
+.elementor-widget-heading{
+    color: $primary;
+}
+.elementor-widget-heading .elementor-heading-title{
+    line-height: 1.25;
+    color: inherit;
+}
+
+h1,
+.elementor-element .h1,
+.elementor-widget-heading h1.elementor-heading-title {
+    font-family: $headingFont;
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+    font-family: $headingFont;
+}
+
+h2,
+.elementor-element .h2,
+.elementor-widget-heading h2.elementor-heading-title{
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    font-family: $headingFont;
+}
+
+h3,
+.elementor-element .h3,
+.elementor-widget-heading h3.elementor-heading-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    font-family: $headingFont;
+}
+
+h4,
+.elementor-element .h4,
+.elementor-widget-heading h4.elementor-heading-title {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    font-family: $headingFont;
+}
+
+
+h5,
+.elementor-element .h5,
+.elementor-widget-heading h5.elementor-heading-title {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    font-family: $headingFont;
+}
+
+h6,
+.elementor-element .h6,
+.elementor-widget-heading h6.elementor-heading-titl {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    font-family: $headingFont;
+}
+
+.elementor-element{
+    font-family: $baseFont;
+    font-size: 2rem;
+    p {
+        font-family: inherit;
+        font-size: inherit;
+        line-height: inherit;
+    }
+    h3,h4,h5,h6{
+        font-family: inherit;
+    }
+    ol, ul{
+        margin-bottom: .9rem;
+    }
+}
+
+
+
+
+
+
+a::not([class="btn"]), a::not([class="btn"]):visited {
+    color: $secondary;
+}
+
+// Sets all text colours on a container with primary background colour
+.primaryBg {
+    * {
+        color: #FFF;
+    }
+}
+
+// Sets all text colours on a container with secondary background colour
+.secondaryBg {
+    * {
+        color: #000;
+    }
+}
+
+.whiteBg * {
+    color: #000;
+}
+
+
+/**
+****
+*****
+****** TEXT COLORS ******
+*****
+****
+***
+*/
+.primaryText, .primaryText * {
+    color: $primary;
+}
+
+.secondaryText, .secondaryText * {
+    color: $secondary;
+}
+
+.tertiaryText, .tertiaryText * {
+    color: $tertiary;
+}
+/**
+****
+*****
+****** END TEXT COLORS ******
+*****
+****
+***
+*/
