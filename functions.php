@@ -9,8 +9,7 @@ function my_theme_enqueue_styles() {
         array( $parent_style ),
         wp_get_theme()->get('Version')
     );
-    wp_enqueue_style( 'Lato', 'https://fonts.googleapis.com/css?family=Lato:400,700' );
-    wp_enqueue_style('OpenSans', 'https://fonts.googleapis.com/css?family=Open+Sans');
+    wp_enqueue_style( 'custom_fonts', 'https://fonts.googleapis.com/css?family=Montserrat|Source+Sans+Pro&display=swap' );
 
 
 }

@@ -8,9 +8,9 @@
     padding: 5px 20px;
 
     &:hover{
-        background:rgba(255,255,255,0.9);
-        border:1px solid $secondary;
-        color: $secondary;
+        background:#808184;
+        border:1px solid #808184;
+        color: #ffffff;
     }
 }
 
@@ -30,9 +30,13 @@
     font-size:2rem;
     padding: 5px 20px;
 
+    &.elementor-size-sm{
+        border-radius:0px;
+    }
+
     &:hover{
-        background:rgba(255,255,255,0.9);
-        border:1px solid $secondary;
-        color: $secondary;
+        background:#808184;
+        border:1px solid #808184;
+        color: #ffffff;
     }
 }
