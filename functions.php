@@ -17,7 +17,7 @@ add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles', 11 );
 
 function ns_child_scripts() {
 
-    //wp_enqueue_script( 'child-custom', get_bloginfo('template_url') . '/js/custom.js', 'jquery', '1.6.0', true );
+    wp_enqueue_script( 'events', get_stylesheet_directory_uri() . '/js/events.js', 'jquery', '1.6.0', true );
 
 }
 add_action( 'wp_enqueue_scripts', 'ns_child_scripts' );
